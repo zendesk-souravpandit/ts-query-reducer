@@ -23,7 +23,7 @@ export const capsuleListReducer = (
     case CapsuleActionType.OTHER_ACTION:
       return {
         ...state,
-        capsuleTitle: state.capsuleTitle + "HHH",
+        capsuleTitle: state.capsuleTitle + "Hello",
       };
     // Handle other actions...
 
